@@ -10,15 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func loginButton(_ sender: UIButton) {
+        view.backgroundColor = #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
